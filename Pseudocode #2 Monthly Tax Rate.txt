@@ -1,0 +1,14 @@
+1. Start
+2. Define a function `calculateTaxes(total_sales)`:
+    a. Input: total_sales (float)
+    b. State sales tax rate = 0.05 (5%)
+    c. County sales tax rate = 0.025 (2.5%)
+    d. Calculate state tax: state_tax = total_sales * 0.05
+    e. Calculate county tax: county_tax = total_sales * 0.025
+    f. Calculate total sales tax: total_sales_tax = state_tax + county_tax
+    g. Output: state_tax, county_tax, total_sales_tax
+3. In the main program:
+    a. Prompt user for the total sales amount
+    b. Call the `calculateTaxes` function with total sales as input
+    c. Display the state tax, county tax, and total sales tax
+4. End
